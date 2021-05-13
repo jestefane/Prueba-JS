@@ -6,6 +6,10 @@ body{
     width: 2rem;
 }
 
+.navbar{
+    background-color: transparent;
+}
+
 p{
     color: #ffffff;
 }
