@@ -3,6 +3,10 @@ body{
     background-color: #000000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar img{
     width: 2rem;
 }
@@ -17,4 +21,16 @@ p, h1, h5{
 
 .div col{
     width: 16rem;
+}
+
+/* Carousel */
+.carousel-height {
+    height: 860px;
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    .carousel-height {
+      height: 400px;
+    }
 }

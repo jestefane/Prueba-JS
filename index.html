@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/7d30f523ac.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <title>Prueba JS</title>
+    <title>Viajes Chile</title>
 </head>
 <body>
     <!--Navbar-->
@@ -19,14 +19,12 @@
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="assets/img/viajes.svg" class="logo-navbar">
-            <span>Viajes Chile</span>
+            Viajes Chile
           </a>
-    
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-    
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
@@ -44,42 +42,42 @@
             </ul>
           </div>
         </div>
-      </nav>   
+    </nav>   
     
     <!--Carousel-->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/carousel1.jpg" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel2.jpg" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel3.jpg" class="d-block w-100">
-          </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100 carousel-height">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100 carousel-height">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100 carousel-height">
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <!--Quienes somos-->
-    <div class="container-fluid text-center pt-5 pb-1 fs-2" id="qs" style="color: #ffffff; background-color: #000000;">
+    <div class="container-fluid d-none d-md-block text-center pt-5 pb-1 fs-2" id="qs" style="color: #ffffff; background-color: #000000;">
         <p>¿Quiénes somos?</p>
     </div>
-    <div class="container-fluid" style="background-color: #000000;">
-    <div class="container border-top border-info" style="background-color: #000000;">
+    <div class="container-fluid d-none d-md-block" style="background-color: #000000;">
+    <div class="container border-top border-info d-none d-md-block" style="background-color: #000000;">
         <div class="row align-items-start">
           <div class="col pt-5">
               <div class="container text-center" style="background-color: #17A3B8;">
-                <i class="fas fa-plane fa-2x" style="color: #ffffff"></i>
-              </div>
+                <i class="fas fa-plane fa-2x py-1" style="color: #ffffff"></i>
+              </div><br>
             <p style="color: #ffffff;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Massa massa ultricies mi quis hendrerit dolor magna 
@@ -95,13 +93,13 @@
                 vehicula ipsum a arcu cursus. Nunc sed id semper risus in hendrerit gravida. Vestibulum morbi blandit cursus risus at. Et malesuada fames ac turpis.
             </p>
             <div class="container text-center" style="background-color: #17A3B8;">
-                <i class="fas fa-mountain fa-2x" style="color: #ffffff"></i>
+                <i class="fas fa-mountain fa-2x py-1" style="color: #ffffff"></i>
             </div>
             </div>
             <div class="col pt-5">
                 <div class="container text-center" style="background-color: #17A3B8;">
-                  <i class="fas fa-route fa-2x" style="color: #ffffff"></i>
-                </div>
+                  <i class="fas fa-route fa-2x py-1" style="color: #ffffff"></i>
+                </div><br>
               <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Massa massa ultricies mi quis hendrerit dolor magna 
@@ -119,40 +117,40 @@
     </div>
     <div class="container-fluid" style="background-color: #000000;">
       <div class="container border-top border-info" style="background-color: #000000;">
-        <div class="row row-cols-1 row-cols-md-3 g-4  pt-5">
-          <div class="col ps-4" style="width: 20rem">
+        <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+          <div class="col" style="width: 20rem">
             <div class="card h-100" style="width: 16rem; background-color: #17A3B8;">
               <img src="assets/img/card1.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
           </div>
           <div class="col" style="width: 20rem">
-            <div class="card h-100 me-0" style="width: 16rem; background-color: #17A3B8;">
+            <div class="card h-100" style="width: 16rem; background-color: #17A3B8;">
               <img src="assets/img/card2.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
           </div>
           <div class="col" style="width: 20rem">
-            <div class="card h-100 me-0" style="width: 16rem; background-color: #17A3B8;">
+            <div class="card h-100" style="width: 16rem; background-color: #17A3B8;">
               <img src="assets/img/card3.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
           </div>
           <div class="col" style="width: 20rem">
-            <div class="card h-100 me-0" style="width: 16rem; background-color: #17A3B8;">
+            <div class="card h-100" style="width: 16rem; background-color: #17A3B8;">
               <img src="assets/img/card4.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
           </div>
@@ -185,43 +183,8 @@
               
           </div>
       </div>
-  </footer>
-    
+    </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--JS-->
-<script src="assets/js/main.js"></script>
 <!--Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
