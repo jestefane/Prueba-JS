@@ -1,6 +1,6 @@
 body{
-    color: #ffffff;
     font-family: 'Raleway';
+    background-color: #000000;
 }
 
 .navbar img{
@@ -11,7 +11,7 @@ body{
     background-color: transparent;
 }
 
-p, h5{
+p, h1, h5{
     color: #ffffff;
 }
 
