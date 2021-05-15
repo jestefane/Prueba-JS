@@ -1,192 +1,245 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="script" href="assets/js/main.js">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7d30f523ac.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <title>Viajes Chile</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="script" href="assets/js/main.js" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/7d30f523ac.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
+  <title>Viajes Chile</title>
 </head>
+
 <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-3">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="assets/img/viajes.svg" class="logo-navbar">
-            Viajes Chile
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ps-3" href="#qs">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ps-3" href="#des">Destacados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white ps-3" href="#con">Contacto</a>
-              </li>
-            </ul>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/viajes.svg" class="logo-navbar" />
+        Viajes Chile
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#qs">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#des">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#con">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Carousel-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/carousel1.jpg" class="d-block w-100 carousel-height" />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/carousel2.jpg" class="d-block w-100 carousel-height" />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/carousel3.jpg" class="d-block w-100 carousel-height" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Quienes somos-->
+  <div class="container-fluid d-none d-md-block text-center pt-5 pb-1 fs-2" id="qs"
+    style="color: #ffffff; background-color: #000000">
+    <p>¿Quiénes somos?</p>
+  </div>
+  <div class="container-fluid d-none d-md-block" style="background-color: #000000">
+    <div class="container border-top border-info d-none d-md-block" style="background-color: #000000">
+      <div class="row align-items-start">
+        <div class="col pt-5">
+          <div class="container text-center" style="background-color: #17a3b8">
+            <i class="fas fa-plane fa-2x py-1" style="color: #ffffff"></i>
+          </div>
+          <br />
+          <p style="color: #ffffff">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
+            nulla facilisi etiam dignissim diam quis enim lobortis
+            scelerisque. Massa massa ultricies mi quis hendrerit dolor magna
+            eget est. Sed turpis tincidunt id aliquet risus feugiat in ante
+            metus. Sollicitudin nibh sit amet commodo nulla. Facilisi nullam
+            vehicula ipsum a arcu cursus. Nunc sed id semper risus in
+            hendrerit gravida. Vestibulum morbi blandit cursus risus at. Et
+            malesuada fames ac turpis.
+          </p>
+        </div>
+        <div class="col pt-5">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
+            nulla facilisi etiam dignissim diam quis enim lobortis
+            scelerisque. Massa massa ultricies mi quis hendrerit dolor magna
+            eget est. Sed turpis tincidunt id aliquet risus feugiat in ante
+            metus. Sollicitudin nibh sit amet commodo nulla. Facilisi nullam
+            vehicula ipsum a arcu cursus. Nunc sed id semper risus in
+            hendrerit gravida. Vestibulum morbi blandit cursus risus at. Et
+            malesuada fames ac turpis.
+          </p>
+          <div class="container text-center" style="background-color: #17a3b8">
+            <i class="fas fa-mountain fa-2x py-1" style="color: #ffffff"></i>
           </div>
         </div>
-    </nav>   
-    
-    <!--Carousel-->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/carousel1.jpg" class="d-block w-100 carousel-height">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/carousel2.jpg" class="d-block w-100 carousel-height">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/carousel3.jpg" class="d-block w-100 carousel-height">
+        <div class="col pt-5">
+          <div class="container text-center" style="background-color: #17a3b8">
+            <i class="fas fa-route fa-2x py-1" style="color: #ffffff"></i>
+          </div>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
+            nulla facilisi etiam dignissim diam quis enim lobortis
+            scelerisque. Massa massa ultricies mi quis hendrerit dolor magna
+            eget est. Sed turpis tincidunt id aliquet risus feugiat in ante
+            metus. Sollicitudin nibh sit amet commodo nulla. Facilisi nullam
+            vehicula ipsum a arcu cursus. Nunc sed id semper risus in
+            hendrerit gravida. Vestibulum morbi blandit cursus risus at. Et
+            malesuada fames ac turpis.
+          </p>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+  </div>
 
-    <!--Quienes somos-->
-    <div class="container-fluid d-none d-md-block text-center pt-5 pb-1 fs-2" id="qs" style="color: #ffffff; background-color: #000000;">
-        <p>¿Quiénes somos?</p>
-    </div>
-    <div class="container-fluid d-none d-md-block" style="background-color: #000000;">
-    <div class="container border-top border-info d-none d-md-block" style="background-color: #000000;">
-        <div class="row align-items-start">
-          <div class="col pt-5">
-              <div class="container text-center" style="background-color: #17A3B8;">
-                <i class="fas fa-plane fa-2x py-1" style="color: #ffffff"></i>
-              </div><br>
-            <p style="color: #ffffff;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Massa massa ultricies mi quis hendrerit dolor magna 
-                eget est. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Sollicitudin nibh sit amet commodo nulla. Facilisi nullam 
-                vehicula ipsum a arcu cursus. Nunc sed id semper risus in hendrerit gravida. Vestibulum morbi blandit cursus risus at. Et malesuada fames ac turpis.
-            </p>
-          </div>
-          <div class="col pt-5">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Massa massa ultricies mi quis hendrerit dolor magna 
-                eget est. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Sollicitudin nibh sit amet commodo nulla. Facilisi nullam 
-                vehicula ipsum a arcu cursus. Nunc sed id semper risus in hendrerit gravida. Vestibulum morbi blandit cursus risus at. Et malesuada fames ac turpis.
-            </p>
-            <div class="container text-center" style="background-color: #17A3B8;">
-                <i class="fas fa-mountain fa-2x py-1" style="color: #ffffff"></i>
-            </div>
-            </div>
-            <div class="col pt-5">
-                <div class="container text-center" style="background-color: #17A3B8;">
-                  <i class="fas fa-route fa-2x py-1" style="color: #ffffff"></i>
-                </div><br>
-              <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Massa massa ultricies mi quis hendrerit dolor magna 
-                  eget est. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Sollicitudin nibh sit amet commodo nulla. Facilisi nullam 
-                  vehicula ipsum a arcu cursus. Nunc sed id semper risus in hendrerit gravida. Vestibulum morbi blandit cursus risus at. Et malesuada fames ac turpis.
+  <!--Destacados-->
+  <div class="container-fluid text-center pt-5 pb-1 fs-2 pt-4" id="des" style="background-color: #000000">
+    <p>Destacados</p>
+  </div>
+  <div class="container-fluid" style="background-color: #000000">
+    <div class="container border-top border-info" style="background-color: #000000">
+      <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+        <div class="col" style="width: 20rem">
+          <div class="card h-100" style="width: 16rem; background-color: #17a3b8">
+            <img src="assets/img/card1.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <!--Destacados-->
-    <div class="container-fluid text-center pt-5 pb-1 fs-2 pt-4" id="des" style="background-color: #000000;">
-      <p>Destacados</p>
-    </div>
-    <div class="container-fluid" style="background-color: #000000;">
-      <div class="container border-top border-info" style="background-color: #000000;">
-        <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
-          <div class="col" style="width: 20rem">
-            <div class="card h-100" style="width: 16rem; background-color: #17A3B8;">
-              <img src="assets/img/card1.jpg" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
+        <div class="col" style="width: 20rem">
+          <div class="card h-100" style="width: 16rem; background-color: #17a3b8">
+            <img src="assets/img/card2.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
           </div>
-          <div class="col" style="width: 20rem">
-            <div class="card h-100" style="width: 16rem; background-color: #17A3B8;">
-              <img src="assets/img/card2.jpg" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
+        </div>
+        <div class="col" style="width: 20rem">
+          <div class="card h-100" style="width: 16rem; background-color: #17a3b8">
+            <img src="assets/img/card3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
           </div>
-          <div class="col" style="width: 20rem">
-            <div class="card h-100" style="width: 16rem; background-color: #17A3B8;">
-              <img src="assets/img/card3.jpg" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="width: 20rem">
-            <div class="card h-100" style="width: 16rem; background-color: #17A3B8;">
-              <img src="assets/img/card4.jpg" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
+        </div>
+        <div class="col" style="width: 20rem">
+          <div class="card h-100" style="width: 16rem; background-color: #17a3b8">
+            <img src="assets/img/card4.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--Contacto y Typerform-->
-    <div class="container-fluid text-center pt-5 pb-1 fs-2 pt-4" id="con" style="background-color: #000000;">
-      <p>Contacto</p>
-      <div class="container border-top border-info pb-5" style="background-color: #000000;"><br>
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/QLILszrE?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
-        <script>
-          (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
-        </script>
+  <!--Contacto y Typerform-->
+  <div class="container-fluid text-center pt-5 pb-1 fs-2 pt-4" id="con" style="background-color: #000000">
+    <p>Contacto</p>
+    <div class="container border-top border-info pb-5" style="background-color: #000000">
+      <br />
+      <div class="typeform-widget" data-url="https://form.typeform.com/to/QLILszrE?typeform-medium=embed-snippet"
+        style="width: 100%; height: 500px"></div>
+      <script>
+        (function () {
+          var qs,
+            js,
+            q,
+            s,
+            d = document,
+            gi = d.getElementById,
+            ce = d.createElement,
+            gt = d.getElementsByTagName,
+            id = "typef_orm",
+            b = "https://embed.typeform.com/";
+          if (!gi.call(d, id)) {
+            js = ce.call(d, "script");
+            js.id = id;
+            js.src = b + "embed.js";
+            q = gt.call(d, "script")[0];
+            q.parentNode.insertBefore(js, q);
+          }
+        })();
+      </script>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="text-white bg-color px-3" style="background-color: #17a3b8">
+    <div class="row text-center py-2 align-items-center">
+      <div class="col-md-6">
+        <h3 class="font-weight-bold">VIAJES CHILE</h3>
+      </div>
+      <div class="col-md-6">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x text-white px-3"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x text-white"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x text-white px-3"></i></a>
+        <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x text-white"></i></a>
       </div>
     </div>
+  </footer>
 
-    <!-- footer -->
-    <footer class="text-white bg-color px-3" style="background-color: #17A3B8;">
-      <div class="row text-center py-2 align-items-center">
-          <div class="col-6">
-              <h3 class="font-weight-bold">VIAJES CHILE</h3>
-          </div>
-          <div class="col-6">
-              <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x text-white px-3"></i></a>
-              <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x text-white"></i></a>
-              <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x text-white px-3"></i></a>
-              <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x text-white"></i></a>
-              
-          </div>
-      </div>
-    </footer>
-
-<!--Bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

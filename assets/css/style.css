@@ -1,36 +1,41 @@
-body{
-    font-family: 'Raleway';
-    background-color: #000000;
+/* Base */
+body {
+  font-family: "Raleway";
+  background-color: #000000;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-.navbar img{
-    width: 2rem;
+p,
+h1,
+h5 {
+  color: #ffffff;
 }
 
-.navbar{
-    background-color: transparent;
+/* Navbar */
+.navbar img {
+  width: 2rem;
 }
 
-p, h1, h5{
-    color: #ffffff;
+.navbar {
+  background-color: transparent;
 }
 
-.div col{
-    width: 16rem;
+.div col {
+  width: 16rem;
 }
 
 /* Carousel */
 .carousel-height {
-    height: 860px;
+  height: 860px;
 }
 
+/* Custom */
 @media (max-width: 768px) {
-    /* Header */
-    .carousel-height {
-      height: 400px;
-    }
+  /* Header */
+  .carousel-height {
+    height: 400px;
+  }
 }
